@@ -1,8 +1,5 @@
-*
+code/*
 
-!.gitignore
-!README.md
-!notes/*
 !*.sh
 !*.asm
 !*.s
