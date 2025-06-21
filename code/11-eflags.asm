@@ -17,7 +17,7 @@ _start:
     mov bl, 0b0001
     add al, bl ; al = 0; bl = 1
     ; In the example above, we're adding 8 bit to 4 bits into a 8 bits (1 byte) register.
-    ; This addition will carry a '1' all the way across to the 9th bit (remember that when the top-most bit is 1, it means negative)
+    ; This addition will carry a '1' all the way across to the 9th bit
     ; but since the register only has 8 bits, this 1 goes into the eflags
     ; info register eflags = [ CF PF AF ZF IF ]
     ; 'CF' is the Carry Flag. If set to 1, there's a carry from the previous operation that did not fit into the register.
