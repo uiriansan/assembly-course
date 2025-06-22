@@ -16,6 +16,7 @@ info registers <register>
 x/x 0x<address>
 # We can display more memory slots by specifing the number:
 x/3x 0x<address> # Returns 3 memory slots starting from that address
+p $xmm0.v4_float[0] # print floating point number
 ```
 Use intel syntax in GDB:
 ```bash
