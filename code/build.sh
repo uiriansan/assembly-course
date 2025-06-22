@@ -6,6 +6,8 @@ fi
 
 RUN=0
 GCC=0
+LINK=0
+LINK_PROG=""
 for arg in "$@"; do
     if [[ "$arg" =~ ^(-r|-run|r|run|--run)$ ]]; then
         RUN=1
