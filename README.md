@@ -22,3 +22,7 @@ Use intel syntax in GDB:
 ```bash
 echo "set disassembly-flavor intel" > ~/.gdbinit
 ```
+
+# Resources
+- https://faculty.nps.edu/cseagle/assembly/sys_call.html
+-
